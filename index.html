@@ -2,13 +2,18 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Control de Gastos</title>
     <style>
-        body { font-family: Arial, sans-serif; }
-        table { width: 100%; border-collapse: collapse; }
-        th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+        body { font-family: Arial, sans-serif; margin: 0; padding: 10px; }
+        h1, h2 { margin: 10px 0; }
+        input, button { margin: 5px 0; width: 100%; height: 40px; font-size: 16px; }
+        button { background-color: #4CAF50; color: white; border: none; cursor: pointer; }
+        button:hover { background-color: #45a049; }
+        table { width: 100%; border-collapse: collapse; margin-top: 20px; }
+        th, td { border: 1px solid #ddd; padding: 12px; text-align: left; }
         th { background-color: #f2f2f2; }
-        #totalSpent { font-size: 24px; color: red; } /* Hace que el total gastado sea grande y visible */
+        #totalSpent { font-size: 24px; color: red; display: block; text-align: center; margin-top: 20px; }
     </style>
 </head>
 <body>
